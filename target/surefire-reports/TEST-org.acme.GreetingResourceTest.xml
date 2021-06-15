@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.acme.GreetingResourceTest" time="3.658" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.acme.GreetingResourceTest" time="3.735" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@11/11.0.8/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mmartofe/projects/akademia/backend/target/surefire/surefirebooter15193067353349963247.jar /Users/mmartofe/projects/akademia/backend/target/surefire 2021-06-16T00-10-40_463-jvmRun1 surefire1651311392952203204tmp surefire_014369160568211536410tmp"/>
+    <property name="sun.java.command" value="/Users/mmartofe/projects/akademia/backend/target/surefire/surefirebooter4447622637810036709.jar /Users/mmartofe/projects/akademia/backend/target/surefire 2021-06-16T00-23-58_377-jvmRun1 surefire15953585817810831127tmp surefire_06328693809259766790tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="/Users/mmartofe/tools/apache-maven-3.6.3"/>
@@ -36,7 +36,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mmartofe/projects/akademia/backend/target/surefire/surefirebooter15193067353349963247.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mmartofe/projects/akademia/backend/target/surefire/surefirebooter4447622637810036709.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.8+11"/>
@@ -66,14 +66,14 @@
     <property name="java.vendor" value="N/A"/>
     <property name="java.vm.version" value="11.0.8+11"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="io.netty.machineId" value="c1:c6:10:42:b7:8d:dc:ad"/>
+    <property name="io.netty.machineId" value="52:85:16:b6:35:a8:67:3f"/>
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testHelloEndpoint" classname="org.acme.GreetingResourceTest" time="1.117">
-    <system-out><![CDATA[2021-06-16 00:10:44,183 INFO  [io.quarkus] (main) Quarkus 1.13.7.Final on JVM started in 2.229s. Listening on: http://localhost:8081
-2021-06-16 00:10:44,186 INFO  [io.quarkus] (main) Profile test activated. 
-2021-06-16 00:10:44,186 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, jdbc-postgresql, mutiny, narayana-jta, resteasy, smallrye-context-propagation]
+  <testcase name="testHelloEndpoint" classname="org.acme.GreetingResourceTest" time="1.076">
+    <system-out><![CDATA[2021-06-16 00:24:01,824 INFO  [io.quarkus] (main) Quarkus 1.13.7.Final on JVM started in 2.349s. Listening on: http://localhost:8081
+2021-06-16 00:24:01,827 INFO  [io.quarkus] (main) Profile test activated. 
+2021-06-16 00:24:01,827 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, jdbc-postgresql, mutiny, narayana-jta, resteasy, smallrye-context-propagation]
 ]]></system-out>
   </testcase>
 </testsuite>
