@@ -48,6 +48,8 @@ COPY --chown=1001 target/quarkus-app/*.jar /deployments/
 COPY --chown=1001 target/quarkus-app/app/ /deployments/app/
 COPY --chown=1001 target/quarkus-app/quarkus/ /deployments/quarkus/
 
+COPY --chown=1001 target/classes/*.sql /deployments/app/
+
 EXPOSE 8080
 USER 1001
 
