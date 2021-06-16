@@ -9,9 +9,9 @@ import io.quarkus.hibernate.orm.panache.PanacheEntity;
 public class Person extends PanacheEntity {
 
     @Column (length = 20)
-    private String name;
+    public String name;
 
     @Column (length = 50)
-    private String surname;
+    public String surname;
     
 }
