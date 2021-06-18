@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.acme.GreetingResourceTest" time="4.618" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.acme.GreetingResourceTest" time="4.529" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@11/11.0.8/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mmartofe/projects/akademia-ok/backend/target/surefire/surefirebooter9640368891415690037.jar /Users/mmartofe/projects/akademia-ok/backend/target/surefire 2021-06-18T10-41-21_374-jvmRun1 surefire3888225945245514158tmp surefire_010685499373445677018tmp"/>
+    <property name="sun.java.command" value="/Users/mmartofe/projects/akademia-ok/backend/target/surefire/surefirebooter14267103816461254023.jar /Users/mmartofe/projects/akademia-ok/backend/target/surefire 2021-06-18T10-45-21_896-jvmRun1 surefire15673039806054092017tmp surefire_05574618677463421596tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="/Users/mmartofe/tools/apache-maven-3.6.3"/>
@@ -37,7 +37,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mmartofe/projects/akademia-ok/backend/target/surefire/surefirebooter9640368891415690037.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mmartofe/projects/akademia-ok/backend/target/surefire/surefirebooter14267103816461254023.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.8+11"/>
@@ -67,15 +67,15 @@
     <property name="java.vendor" value="N/A"/>
     <property name="java.vm.version" value="11.0.8+11"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="io.netty.machineId" value="6a:c5:34:85:5c:05:13:dd"/>
+    <property name="io.netty.machineId" value="e4:e1:dc:b6:30:e7:3f:0d"/>
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="mp.openapi.extensions.smallrye.defaultConsumes" value="application/json"/>
   </properties>
-  <testcase name="testHelloEndpoint" classname="org.acme.GreetingResourceTest" time="1.308">
-    <system-out><![CDATA[2021-06-18 10:41:25,696 INFO  [io.quarkus] (main) Quarkus 1.13.7.Final on JVM started in 2.862s. Listening on: http://localhost:8081
-2021-06-18 10:41:25,697 INFO  [io.quarkus] (main) Profile test activated. 
-2021-06-18 10:41:25,698 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, jdbc-h2, jdbc-postgresql, mutiny, narayana-jta, resteasy, resteasy-jackson, resteasy-jsonb, smallrye-context-propagation, smallrye-openapi, swagger-ui]
+  <testcase name="testHelloEndpoint" classname="org.acme.GreetingResourceTest" time="1.319">
+    <system-out><![CDATA[2021-06-18 10:45:26,065 INFO  [io.quarkus] (main) Quarkus 1.13.7.Final on JVM started in 2.768s. Listening on: http://localhost:8081
+2021-06-18 10:45:26,067 INFO  [io.quarkus] (main) Profile test activated. 
+2021-06-18 10:45:26,067 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, jdbc-h2, jdbc-postgresql, mutiny, narayana-jta, resteasy, resteasy-jackson, resteasy-jsonb, smallrye-context-propagation, smallrye-openapi, swagger-ui]
 ]]></system-out>
   </testcase>
 </testsuite>
